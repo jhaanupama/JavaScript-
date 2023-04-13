@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<p id= "demo">Variables in JavaScript</p>
+<p id ="demo1"></p>
+<p id="demo2"></p>
+</html>
+<script>
+var name ="anu";// scope is function
+const num=15;// once declared you cannot reassign the value
+
+let c=5;
+ //here c is 5
+ document.getElementById("demo2").innerHTML= c;
+ {
+    //here c is 20
+    let c =20;
+    document.getElementById("demo").innerHTML= c;
+ }
+ //here c is again 5
+ document.getElementById("hello").innerHTML= c;
+</script>
